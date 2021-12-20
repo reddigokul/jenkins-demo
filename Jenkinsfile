@@ -8,10 +8,10 @@ pipeline {
         }
         stage('Test') {
             steps {
-                step{
+                step {
                     echo 'Testing.. This is the testing phase'
                 }
-                step{
+                step {
                     input('Can We approve?......')
                 }
             }
